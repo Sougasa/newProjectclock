@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projectclock - ProjectNews</title>
+<meta name="description" content="Fique por dentro das últimas notícias de tecnologia em um universo interativo e imersivo.">
+<link rel="icon" href="projectnews.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="projectnews.css">
+<script src="projectnews.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="../../index.html" class="btn-back">Voltar para o Projectclock</a>
+</header>
+
+<canvas id="spaceCanvas"></canvas>
+<canvas id="nebulaCanvas"></canvas>
+
+<main class="main">
+  <!-- Hero -->
+  <section class="hero scroll-animate">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>ProjectNews </h1>
+        <p>Explore as últimas notícias de tecnologia em um universo interativo.</p>
+        <a href="#noticias" class="btn-space">Explorar Notícias</a>
+      </div>
+      <div class="hero-logo">
+        <img src="projectnews.png" alt="ProjectNews Logo">
+        <canvas class="logo-particles"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notícias -->
+  <section id="noticias" class="scroll-animate news-section">
+    <h2>Últimas Notícias</h2>
+    <div class="news-grid">
+      <article class="news-card">
+        <img src="imgs/gpu.png" alt="Notícia 1">
+        <h3>Lançamento de nova GPU revolucionária</h3>
+        <p>Uma nova GPU promete performance de outro planeta! Confira os detalhes dessa inovação.</p>
+        <a href="#" class="btn-space-small">Leia mais</a>
+      </article>
+      <article class="news-card">
+        <img src="imgs/programa.png" alt="Notícia 2">
+        <h3>Computação quântica avança rapidamente</h3>
+        <p>Pesquisadores anunciam progressos significativos no processamento quântico de dados.</p>
+        <a href="#" class="btn-space-small">Leia mais</a>
+      </article>
+      <article class="news-card">
+        <img src="imgs/gpu.png" alt="Notícia 3">
+        <h3>Inteligência artificial em órbita</h3>
+        <p>Startups exploram IA para satélites, abrindo um novo capítulo na exploração espacial.</p>
+        <a href="#" class="btn-space-small">Leia mais</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer scroll-animate">&copy; 2025 Projectclock. Todos os direitos reservados.</footer>
+
+</body>
+</html>
